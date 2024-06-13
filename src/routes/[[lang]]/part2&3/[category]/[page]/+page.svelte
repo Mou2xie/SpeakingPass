@@ -74,7 +74,7 @@
                 title={`IELTS speaking Part2&3 topic: ${topic}`}
             >
                 <div
-                    class=" h-20 bg-white shadow-sm rounded-lg text-pramary hover:shadow p-3 line-clamp-2 text-lg"
+                    class=" h-20 bg-white shadow-sm rounded-lg text-pramary hover:shadow p-3 line-clamp-2 text-lg hover:text-main"
                 >
                     {topic}
                 </div>
