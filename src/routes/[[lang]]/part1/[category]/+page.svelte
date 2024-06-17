@@ -40,8 +40,7 @@
         <a
             href="/en/part1"
             class=" underline underline-offset-4 decoration-main"
-            title={`IELTS speaking topics about ${category}`}
-            >Part 1 topics</a
+            title={`IELTS speaking topics about ${category}`}>Part 1 topics</a
         >
         <span>{`> ${category}`}</span>
     </h1>
