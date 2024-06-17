@@ -95,7 +95,7 @@
                     <div class=" text-[12px] md:text-[14px]">
                         {text[textIndex][3]}
                     </div>
-                    <div class=" text-3xl font-medium">160 +</div>
+                    <div class=" text-3xl font-medium">340 +</div>
                 </div>
                 <div class="flex justify-end items-center grow">
                     <a href={`/${data.lang}/part1`} title="Part1 topics">
