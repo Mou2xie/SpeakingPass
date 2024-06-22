@@ -4,6 +4,9 @@
 
     export let data;
     let textIndex = 0;
+    const part1Num = "350 +";
+    const part2Num = "50 +";
+    const lastUpdateTime = "2024.6.22";
 
     $: textIndex = switchLang(data.lang);
 
@@ -96,7 +99,7 @@
                     <div class=" text-[14px]">
                         {text[textIndex][3]}
                     </div>
-                    <div class=" text-3xl font-medium">340 +</div>
+                    <div class=" text-3xl font-medium">{part1Num}</div>
                 </div>
                 <div class="flex justify-end items-center grow">
                     <a href={`/${data.lang}/part1`} title="Part1 topics">
@@ -115,7 +118,7 @@
                     <div class=" text-[14px]">
                         {text[textIndex][4]}
                     </div>
-                    <div class=" text-3xl font-medium">50 +</div>
+                    <div class=" text-3xl font-medium">{part2Num}</div>
                 </div>
                 <div class="flex justify-end items-center grow">
                     <a
@@ -132,7 +135,8 @@
             </div>
         </div>
         <div class=" flex justify-center text-secondary mt-5">
-            {text[textIndex][8]} 2024.6.18
+            {text[textIndex][8]}
+            {lastUpdateTime}
         </div>
         <div
             class=" flex flex-col px-10 md:px-48 mt-5 text-secondary md:text-base gap-2"
