@@ -4,8 +4,8 @@
 
     export let data;
     let textIndex = 0;
-    const part1Num = "350 +";
-    const part2Num = "50 +";
+    const part1Num = "351";
+    const part2Num = "54";
     const lastUpdateTime = "2024.6.22";
 
     $: textIndex = switchLang(data.lang);
