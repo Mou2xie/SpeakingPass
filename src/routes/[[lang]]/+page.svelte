@@ -6,7 +6,7 @@
     let textIndex = 0;
     const part1Num = "351";
     const part2Num = "54";
-    const lastUpdateTime = "2024.6.22";
+    const lastUpdateTime = "2024.6.26";
 
     $: textIndex = switchLang(data.lang);
 
