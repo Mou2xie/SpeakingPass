@@ -6,6 +6,8 @@ export function load({ params }) {
             break;
         case 'vn':
             break;
+        case 'uz':
+            break;
         default:
             lang = 'en'
     }

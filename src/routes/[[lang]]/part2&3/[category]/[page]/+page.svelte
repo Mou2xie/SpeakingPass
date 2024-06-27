@@ -4,9 +4,9 @@
     export let data;
     let { lang, category, topicList, page } = data;
     const categoryList = ["Person", "Object", "Activity", "Place"];
-    let textIndex = 0;
+    let language = "en";
 
-    $: textIndex = switchLang(data.lang);
+    $: language = switchLang(data.lang);
 
     afterNavigate(() => {
         lang = data.lang;
@@ -15,32 +15,38 @@
         page = data.page;
     });
 
-    const SEO = [
-        {
+    const SEO = {
+        en: {
             title: `IELTS speaking Part2&3 Topics: ${category} - SpeakingPass`,
             description: `${topicList.length} real IELTS speaking topics about ${category} for Part2&3. Person, Object, Activity, Place......`,
             keywords:
                 "IELTS, IELTS speaking, part2, part3, topics, questions, answers",
         },
-        {
+        cn: {
             title: `雅思口语Part2&3话题：${category} - SpeakingPass`,
             description: `${topicList.length}道关于${category}的雅思口语Part2&3真题。Person, Object, Activity, Place......`,
             keywords:
                 "IELTS, IELTS speaking, part2, part3, topics, questions, answers, 雅思, 雅思口语, 雅思口语话题, 雅思口语答案",
         },
-        {
+        vn: {
             title: `Chủ đề nói IELTS Phần 2 & 3: ${category} - SpeakingPass`,
             description: `${topicList.length} chủ đề nói IELTS thực tế về ${category} cho Phần 2&3. Person, Object, Activity, Place......`,
             keywords:
                 "IELTS, IELTS speaking, part1, part2, part3, topics, questions, answers",
         },
-    ];
+        uz: {
+            title: `IELTS speaking Part 2 & 3 Mavzular: ${category} - Speaking Pass`,
+            description: `2 va 3-qism uchun ${category} haqida ${topicList.length} haqiqiy IELTS mavzulari. Shaxs, ob'ekt, faoliyat, joy......`,
+            keywords:
+                "IELTS, IELTS speaking, part2, part3, topics, questions, answers",
+        },
+    };
 </script>
 
 <svelte:head>
-    <title>{SEO[textIndex].title}</title>
-    <meta name="description" content={SEO[textIndex].description} />
-    <meta name="keywords" content={SEO[textIndex].keywords} />
+    <title>{SEO[language].title}</title>
+    <meta name="description" content={SEO[language].description} />
+    <meta name="keywords" content={SEO[language].keywords} />
 </svelte:head>
 
 <div class="flex flex-col px-4 md:px-10">

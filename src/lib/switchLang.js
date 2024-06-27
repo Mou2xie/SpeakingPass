@@ -1,19 +1,23 @@
 
 export const switchLang = (lang) => {
-    let textIndex = 0;
+
+    let language = 'en';
 
     switch (lang) {
         case "en":
             break;
         case "cn":
-            textIndex = 1;
+            language = 'cn';
             break;
         case "vn":
-            textIndex = 2;
+            language = 'vn';
+            break;
+        case "uz":
+            language = 'uz';
             break;
         default:
-            textIndex = 0;
+            language = 'en';
     }
 
-    return textIndex
+    return language
 }

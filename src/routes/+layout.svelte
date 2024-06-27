@@ -5,6 +5,7 @@
   import en from "$lib/assets/en.svg";
   import cn from "$lib/assets/cn.svg";
   import vn from "$lib/assets/vn.svg";
+  import uz from "$lib/assets/uz.svg";
   import menu from "$lib/assets/menu.svg";
   import DropdownCard from "$lib/components/DropdownCard.svelte";
 
@@ -32,6 +33,11 @@
             text: "Tiếng Việt",
             url: "/vn",
           },
+          {
+            flag: uz,
+            text: "o'zbek",
+            url: "/uz",
+          },
         ];
         break;
       case "cn":
@@ -47,6 +53,11 @@
             flag: vn,
             text: "Tiếng Việt",
             url: "/vn",
+          },
+          {
+            flag: uz,
+            text: "o'zbek",
+            url: "/uz",
           },
         ];
         break;
@@ -64,8 +75,33 @@
             text: "简体中文",
             url: "/cn",
           },
+          {
+            flag: uz,
+            text: "o'zbek",
+            url: "/uz",
+          },
         ];
         break;
+      case "uz":
+        flag = uz;
+        language = "Uzbek";
+        dropDownList = [
+          {
+            flag: en,
+            text: "English",
+            url: "/en",
+          },
+          {
+            flag: cn,
+            text: "简体中文",
+            url: "/cn",
+          },
+          {
+            flag: vn,
+            text: "Tiếng Việt",
+            url: "/vn",
+          },
+        ];
     }
   }
 
