@@ -77,7 +77,7 @@
                     <div class=" text-3xl font-medium">{part1Num}</div>
                 </div>
                 <div class="flex justify-end items-center grow">
-                    <a href={`/${data.lang}/part1`} title="Part1 topics">
+                    <a href={`/part1`} title="Part1 topics">
                         <div
                             class=" px-4 md:px-6 py-1 text-[14px] bg-main text-white rounded-full"
                         >
@@ -97,7 +97,7 @@
                 </div>
                 <div class="flex justify-end items-center grow">
                     <a
-                        href={`/${data.lang}/part2&3/Person/1`}
+                        href={`/part2&3/Person/1`}
                         title="Part2&3 topics"
                     >
                         <div

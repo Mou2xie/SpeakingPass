@@ -119,7 +119,7 @@
   <span class=" hidden md:block md:ml-8">
     <div class=" text-secondary text-lg font-medium flex gap-5">
       <a
-        href={`/${data.lang}/part1`}
+        href={`/part1`}
         title="IELTS speaking Part1 topics"
         class="hover:text-main {$page.route.id == '/[[lang]]/part1'
           ? ' text-main'
@@ -130,7 +130,7 @@
         Part 1
       </a>
       <a
-        href={`/${data.lang}/part2&3/Person/1`}
+        href={`/part2&3/Person/1`}
         title="IELTS speaking Part2&3 topics"
         class="hover:text-main {$page.route.id ==
         '/[[lang]]/part2&3/[category]/[page]'
@@ -171,7 +171,7 @@
       </summary>
       <DropdownCard>
         <a
-          href={`/${data.lang}/part1`}
+          href={`/part1`}
           title="IELTS speaking Part1 topics"
           class=" flex gap-2 items-center py-3 pl-3 {$page.route.id ==
           '/[[lang]]/part1'
@@ -184,7 +184,7 @@
           <div>Part 1</div>
         </a>
         <a
-          href={`/${data.lang}/part2&3/Person/1`}
+          href={`/part2&3/Person/1`}
           title="IELTS speaking Part2&3 topics"
           class=" flex gap-2 items-center py-3 pl-3 {$page.route.id ==
           '/[[lang]]/part2&3/[category]/[page]'
