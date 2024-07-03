@@ -22,24 +22,6 @@
             keywords:
                 "IELTS, IELTS speaking, part2, part3, topics, questions, answers",
         },
-        cn: {
-            title: `雅思口语Part2&3话题：${category} - SpeakingPass`,
-            description: `${topicList.length}道关于${category}的雅思口语Part2&3真题。Person, Object, Activity, Place......`,
-            keywords:
-                "IELTS, IELTS speaking, part2, part3, topics, questions, answers, 雅思, 雅思口语, 雅思口语话题, 雅思口语答案",
-        },
-        vn: {
-            title: `Chủ đề nói IELTS Phần 2 & 3: ${category} - SpeakingPass`,
-            description: `${topicList.length} chủ đề nói IELTS thực tế về ${category} cho Phần 2&3. Person, Object, Activity, Place......`,
-            keywords:
-                "IELTS, IELTS speaking, part1, part2, part3, topics, questions, answers",
-        },
-        uz: {
-            title: `IELTS speaking Part 2 & 3 Mavzular: ${category} - Speaking Pass`,
-            description: `2 va 3-qism uchun ${category} haqida ${topicList.length} haqiqiy IELTS mavzulari. Shaxs, ob'ekt, faoliyat, joy......`,
-            keywords:
-                "IELTS, IELTS speaking, part2, part3, topics, questions, answers",
-        },
     };
 </script>
 

@@ -40,6 +40,20 @@
             keywords:
                 "IELTS, IELTS speaking, part1, part2, part3, topics, answers",
         },
+        ru: {
+            title: "SpeakingPass — темы и справочные ответы для устного теста IELTS",
+            description:
+                "Соберите и опубликуйте все реальные темы частей 1, частей 2 и 3, а также справочные ответы разговорного теста IELTS.",
+            keywords:
+                "IELTS, IELTS speaking, part1, part2, part3, topics, answers",
+        },
+        in: {
+            title: "SpeakingPass - आईईएलटीएस स्पीकिंग टेस्ट के लिए विषय और संदर्भ उत्तर",
+            description:
+                "आईईएलटीएस स्पीकिंग टेस्ट के सभी वास्तविक भाग 1 / भाग 2 और 3 विषयों और संदर्भ उत्तरों को एकत्रित करें और प्रकाशित करें।",
+            keywords:
+                "IELTS, IELTS speaking, part1, part2, part3, topics, answers",
+        },
     };
 </script>
 
@@ -96,10 +110,7 @@
                     <div class=" text-3xl font-medium">{part2Num}</div>
                 </div>
                 <div class="flex justify-end items-center grow">
-                    <a
-                        href={`/part2&3/Person/1`}
-                        title="Part2&3 topics"
-                    >
+                    <a href={`/part2&3/Person/1`} title="Part2&3 topics">
                         <div
                             class=" px-4 md:px-6 py-1 text-[14px] bg-main text-white rounded-full"
                         >

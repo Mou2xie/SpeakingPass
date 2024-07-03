@@ -6,6 +6,8 @@
   import cn from "$lib/assets/cn.svg";
   import vn from "$lib/assets/vn.svg";
   import uz from "$lib/assets/uz.svg";
+  import ru from "$lib/assets/ru.svg";
+  import In from "$lib/assets/in.svg";
   import menu from "$lib/assets/menu.svg";
   import DropdownCard from "$lib/components/DropdownCard.svelte";
 
@@ -13,7 +15,38 @@
 
   let language = undefined;
   let flag = undefined;
-  let dropDownList = [];
+  let dropDownList = [
+    {
+      flag: en,
+      text: "English",
+      url: "/en",
+    },
+    {
+      flag: uz,
+      text: "o'zbek",
+      url: "/uz",
+    },
+    {
+      flag: ru,
+      text: "Русский",
+      url: "/ru",
+    },
+    {
+      flag: cn,
+      text: "简体中文",
+      url: "/cn",
+    },
+    {
+      flag: vn,
+      text: "Tiếng Việt",
+      url: "/vn",
+    },
+    {
+      flag: In,
+      text: "हिंदी",
+      url: "/in",
+    },
+  ];
 
   $: switchLang(data.lang);
 
@@ -22,86 +55,27 @@
       case "en":
         flag = en;
         language = "English";
-        dropDownList = [
-          {
-            flag: cn,
-            text: "简体中文",
-            url: "/cn",
-          },
-          {
-            flag: vn,
-            text: "Tiếng Việt",
-            url: "/vn",
-          },
-          {
-            flag: uz,
-            text: "o'zbek",
-            url: "/uz",
-          },
-        ];
         break;
       case "cn":
         flag = cn;
         language = "Chinese";
-        dropDownList = [
-          {
-            flag: en,
-            text: "English",
-            url: "/en",
-          },
-          {
-            flag: vn,
-            text: "Tiếng Việt",
-            url: "/vn",
-          },
-          {
-            flag: uz,
-            text: "o'zbek",
-            url: "/uz",
-          },
-        ];
         break;
       case "vn":
         flag = vn;
         language = "Vietnamese";
-        dropDownList = [
-          {
-            flag: en,
-            text: "English",
-            url: "/en",
-          },
-          {
-            flag: cn,
-            text: "简体中文",
-            url: "/cn",
-          },
-          {
-            flag: uz,
-            text: "o'zbek",
-            url: "/uz",
-          },
-        ];
         break;
       case "uz":
         flag = uz;
         language = "Uzbek";
-        dropDownList = [
-          {
-            flag: en,
-            text: "English",
-            url: "/en",
-          },
-          {
-            flag: cn,
-            text: "简体中文",
-            url: "/cn",
-          },
-          {
-            flag: vn,
-            text: "Tiếng Việt",
-            url: "/vn",
-          },
-        ];
+        break;
+      case "ru":
+        flag = ru;
+        language = "Russian";
+        break;
+      case "in":
+        flag = In;
+        language = "Hindi";
+        break;
     }
   }
 

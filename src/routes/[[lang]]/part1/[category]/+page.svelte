@@ -9,26 +9,8 @@
 
     const SEO = {
         en: {
-            title: `IELTS speaking Part1 topics about ${category} - SpeakingPass`,
-            description: `${topicList.length} IELTS speaking part1 questions about ${category}.`,
-            keywords:
-                "IELTS, IELTS speaking, part1, topics, questions, answers",
-        },
-        cn: {
-            title: `雅思口语Part1关于${category}的话题 - SpeakingPass`,
-            description: `${topicList.length}道关于${category}的雅思口语Part1题目。`,
-            keywords:
-                "IELTS, IELTS speaking, part1, topics, questions, answers, 雅思, 雅思口语, 雅思口语话题, 雅思口语答案",
-        },
-        vn: {
-            title: `Các chủ đề Nói IELTS Phần 1 về ${category} - Speech Pass`,
-            description: `${topicList.length} Câu hỏi IELTS phần 1 về ${category}.`,
-            keywords:
-                "IELTS, IELTS speaking, part1, topics, questions, answers",
-        },
-        uz: {
-            title: `IELTS speaking ${category} haqida 1-qism mavzulari - Speaking Pass`,
-            description: `${topicList.length} ${category} haqida IELTS 1-qism savollari.`,
+            title: `Sample Answers about "${category}" of IELTS Speaking Part 1 - SpeakingPass`,
+            description: `${topicList.length} IELTS Speaking Part 1 questions and answers about ${category}.`,
             keywords:
                 "IELTS, IELTS speaking, part1, topics, questions, answers",
         },

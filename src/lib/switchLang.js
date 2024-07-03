@@ -15,6 +15,12 @@ export const switchLang = (lang) => {
         case "uz":
             language = 'uz';
             break;
+        case "ru":
+            language = 'ru';
+            break;
+        case "in":
+            language = 'in';
+            break;
         default:
             language = 'en';
     }
