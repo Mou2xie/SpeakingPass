@@ -6,8 +6,8 @@
     export let data;
     let language = "en";
     const part1Num = "366";
-    const part2Num = "62";
-    const lastUpdateTime = "2024.7.07";
+    const part2Num = "67";
+    const lastUpdateTime = "2024.7.11";
 
     $: language = switchLang(data.lang);
 
