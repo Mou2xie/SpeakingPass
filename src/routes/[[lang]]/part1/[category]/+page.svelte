@@ -37,4 +37,15 @@
             <TopicCard {...item}></TopicCard>
         {/each}
     </div>
+    <div class="mb-6 text-main text-xl underline">
+        <a
+            href="/"
+            target="_blank"
+            title="SpeakingPass home page"
+            class=" flex justify-center text-center"
+        >
+            👋 Come and get more topics and sample answers of IELTS speaking
+            test - SpeakingPass
+        </a>
+    </div>
 </div>

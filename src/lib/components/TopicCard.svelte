@@ -13,7 +13,7 @@
         <h2 class=" font-semibold text-pramary text-lg">{topic}</h2>
     {/if}
     {#if part == 2}
-        <div class=" flex flex-col text-secondary">
+        <div class=" flex flex-col text-secondary mt-3">
             <div>you shold say:</div>
             {#each subTopics as item}
                 <div>{item}</div>

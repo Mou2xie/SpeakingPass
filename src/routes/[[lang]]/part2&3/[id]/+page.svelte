@@ -26,4 +26,16 @@
 
 <div class="flex flex-col px-4 mt-4 mb-6 md:mt-8 md:px-40 md:mb-12">
     <TopicCard {...topic[0]} part={2}></TopicCard>
+
+    <div class="mt-6 text-main text-xl underline">
+        <a
+            href="/"
+            target="_blank"
+            title="SpeakingPass home page"
+            class=" flex justify-center text-center"
+        >
+            👋 Come and get more topics and sample answers of IELTS speaking
+            test - SpeakingPass
+        </a>
+    </div>
 </div>
