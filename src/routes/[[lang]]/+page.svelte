@@ -7,7 +7,7 @@
     let language = "en";
     const part1Num = "391";
     const part2Num = "92";
-    const lastUpdateTime = "2024.9.06";
+    const lastUpdateTime = "2024.11.25";
 
     $: language = switchLang(data.lang);
 
